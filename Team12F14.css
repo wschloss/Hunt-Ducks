@@ -33,22 +33,22 @@ body {
 
 #hound {
 	padding-top: 75px;
-	-webkit-animation: dogWalking 25s linear infinite;
-	animation: dogWalking 25s linear infinite;
+	-webkit-animation: dogWalking 25s linear infinite, alternate;
+	animation: dogWalking 25s linear infinite, alternate;
 	
 	position: relative;
 }
 
 @-webkit-keyframes dogWalking {
 	0%{left:0px;}
-	50% {left:99%; transform: rotateY(0deg);}
-	51%{left: 99%; transform: rotateY(180deg);}
+	50% {left:90%; transform: rotateY(0deg);}
+	51%{left:90%; transform: rotateY(180deg);}
 	100%{left:0px; transform: rotateY(180deg);}
 }
 
 @keyframes dogWalking {
 	0%{left:0px;}
-	50% {left:99%; transform: rotateY(0deg);}
-	51%{left: 99%; transform: rotateY(180deg);}
+	50% {left:90%; transform: rotateY(0deg);}
+	51%{left: 90%; transform: rotateY(180deg);}
 	100%{left:0px; transform: rotateY(180deg);}
 }
