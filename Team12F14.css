@@ -38,7 +38,8 @@ body {
 	padding-top: 75px;
 	-webkit-animation: dogWalking 25s linear infinite, alternate;
 	animation: dogWalking 25s linear infinite, alternate;
-	
+	width:10%;
+	height:10%;
 	position: relative;
 }
 
