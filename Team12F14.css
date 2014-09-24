@@ -1,10 +1,36 @@
 body {
 	background: -webkit-linear-gradient(rgba(6,35,170,1), rgba(74,124,227,1), rgba(128,208,16,1)); /* For Safari 5.1 to 6.0 */
     background: -o-linear-gradient(rgba(6,35,170,1), rgba(74,124,227,1), rgba(128,208,16,1)); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradienrgba(6,35,170,1), rgba(74,124,227,1), rgba(128,208,16,1)); /* For Firefox 3.6 to 15 */
+    background: -moz-linear-gradient(rgba(6,35,170,1), rgba(74,124,227,1), rgba(128,208,16,1)); /* For Firefox 3.6 to 15 */
     background: linear-gradient(rgba(6,35,170,1), rgba(74,124,227,1), rgba(128,208,16,1)); /* Standard syntax */
 }
 
+nav {
+	font-size: 150%;
+	text-align: center;
+	margin: auto;
+	width: 50%;
+}
+
+nav a {
+	background-color: #FF8C00;
+	padding: 2px;
+	border:1px solid black;
+}
+
+a:link, a:visited {
+	color: black;
+}
+
+a:hover, a:active {
+	font-size: 125%;
+	color: yellow;
+}
+
+#about, #credits {
+	font-family: sans-serif;
+	font-size: 150%;
+}
 
 #title {
 	font-family: sans-serif;
