@@ -45,13 +45,13 @@ body {
 @-webkit-keyframes dogWalking {
 	0%{left:0px;}
 	50% {left:90%; transform: rotateY(0deg);}
-	51%{left:90%; transform: rotateY(180deg);}
+	50.01%{left:90%; transform: rotateY(180deg);}
 	100%{left:0px; transform: rotateY(180deg);}
 }
 
 @keyframes dogWalking {
 	0%{left:0px;}
 	50% {left:90%; transform: rotateY(0deg);}
-	51%{left: 90%; transform: rotateY(180deg);}
+	50.01%{left: 90%; transform: rotateY(180deg);}
 	100%{left:0px; transform: rotateY(180deg);}
 }
