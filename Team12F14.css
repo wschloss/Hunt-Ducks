@@ -14,7 +14,7 @@ body {
 
 #gameCanvas {
 	position: relative;
-	top:50px;
+	top:25px;
 	padding-left: 0;
 	padding-right: 0;
 	margin-left: auto;
@@ -28,14 +28,14 @@ body {
 
 #title, #gameCanvas {
 	border: 1px solid black;
-	background-color: #00ffff;
+	background-color: #DB6414;
 	box-shadow: 10px 10px 5px black;
 	border-radius: 10px;
 	text-align: center;
 }
 
 #hound {
-	padding-top: 75px;
+	padding-top: 25px;
 	-webkit-animation: dogWalking 25s linear infinite, alternate;
 	animation: dogWalking 25s linear infinite, alternate;
 	
